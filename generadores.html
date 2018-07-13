@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Querquetum</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type = "text/css" href="css/estilos.css"/>
+
+</head>
+<body>
+
+  <!--NAVBAR W/ BOOTSTRAP-->
+  <nav class="navbar navbar-expand-lg" id="menu">
+    <a class="navbar-brand" href="#"><img src="Quercetum.png" alt="Quercetum logo"> Querquetum</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=" #navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"  aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link home" href="index.html">Inicio <span class="sr-only">(current) </span></a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="#">Concursos</a>
+        </li>
+      -->
+        <li class="nav-item">
+          <a class="nav-link" href="retos.html">Retos</a>
+        </li>
+        <!--
+        <li>
+          <a class="nav-link" href="recursos.html">Recursos</a>
+        </li>
+      -->
+        <li>
+          <a class="nav-link" href="generadores.html">Generadores</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Generadores de ideas</h1>
+    <p>En este apartado de la web se recopilan varios generadores aleatorios que pueden servir como herramienta de inspiración. Por ahora son pocos pero la idea es que crezcan con el tiempo. </p>
+    <h4>Índice</h4>
+    <ul>
+      <li><a href="#triadas">Tríadas</a></li>
+    </ul>
+  </div>
+  
+
+  <div class="generador text-center" id="triadas">
+    <h1>Tríadas</h1>
+    <p>Genera un objeto, un sentimiento y una acción. Genera una tríada y escribe una historia basada en esas tres palabras.</p>
+    <button class="btn btn-primary" id="generar">Generar</button>
+    <div class="btn-group">
+      <button class="btn btn-primary" id="cObjeto">Cambiar objeto</button>
+      <button class="btn btn-primary" id="cSentimiento">Cambiar sentimiento</button>
+      <button class="btn btn-primary" id="cAccion">Cambiar acción</button>
+    </div>
+    
+    <div id="objeto"></div>
+    <div id="sentimiento"></div>
+    <div id="accion"></div>
+
+    <button class="btn btn-primary" id="compartirT">Compartir en Twitter</button>
+        <button class="btn btn-primary" id="compartirF">Compartir en Facebook</button>
+
+
+  </div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container text-center">
+    Gracias por visitar Querquetum
+    <a href="#menu" title="To Top"><i class="fa fa-angle-up logo"></i></a>
+    <p></p>
+    <p>Quercetum no está creada por un lagarto. Puedes ver pistas de ello aquí:</p>
+    </div>
+    <ul class="footer text-center">
+        <li><a href="https://twitter.com/soyCarballeira"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/Querquetum"><i class="fa fa-github"></i></a></li>
+    </ul>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/triadas.js"></script>
+</body>
+</html>
+
+
