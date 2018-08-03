@@ -28,6 +28,7 @@ body{
 	background: transparent;/*var(--color2);*/
 	/*ON SCROLL CHANGE TO SOLID*/
 	border-top: 5px solid var(--color5);
+	z-index: 10;
 }
 
 .navbar-brand>img {
@@ -49,7 +50,10 @@ body{
 
 
 /*MAIN*/
-
+a{
+  color: var(--color5);
+  
+}
 .jumbotron { 
     background-image: url("eli-francis-100644.jpg");
     background-size: cover;
@@ -91,7 +95,10 @@ body{
 #secciones {
 	background-color: var(--color5);
 }
-
+#secciones a{
+  color: var(--color1);
+  
+}
 .seccion h2{
 	font-family: "Covered By Your Grace";
 	font-size: 4em;
